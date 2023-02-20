@@ -34,6 +34,7 @@ class LoginPageViewController: UIViewController {
         txtField.leftViewMode = UITextField.ViewMode.always
         txtField.autocorrectionType = .no
         txtField.autocapitalizationType = .none
+        txtField.textContentType = .username
         return txtField
     }()
     
@@ -50,6 +51,7 @@ class LoginPageViewController: UIViewController {
         txtField.autocorrectionType = .no
         txtField.autocapitalizationType = .none
         txtField.isSecureTextEntry = true
+        txtField.textContentType = .password
         return txtField
     }()
     
